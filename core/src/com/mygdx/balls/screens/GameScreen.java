@@ -12,10 +12,10 @@ import com.mygdx.balls.layers.HeadUpDisplay;
 
 public class GameScreen implements Screen {
 
-    private BallsGameClass gameSession;
-    private OrthographicCamera gameCamera;
-    private Viewport gameVeiwport;
-    private HeadUpDisplay PlayerHud;
+    private final BallsGameClass gameSession;
+    private final OrthographicCamera gameCamera;
+    private final Viewport gameVeiwport;
+    private final HeadUpDisplay PlayerHud;
 
     public GameScreen(BallsGameClass gameSession){
         this.gameSession = gameSession;
